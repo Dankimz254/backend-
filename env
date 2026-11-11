@@ -1,0 +1,20 @@
+</> env
+
+PORT=3000
+NODE_ENV=development
+
+SESSION_SECRET=replace_this_with_a_long_random_secret
+
+DERIV_CLIENT_ID=YOUR_DERIV_APP_ID
+
+DERIV_REDIRECT_URI=http://localhost:3000/auth/deriv/callback
+
+DERIV_SCOPES=trade account_manage
+
+FRONTEND_URL=http://localhost:3000
+
+# Leave these blank until you have your partner details
+DERIV_TRACKING_TOKEN=
+DERIV_TRACKING_PARAMETER=t
+DERIV_AFFILIATE_ID=
+DERIV_CAMPAIGN=novaai
